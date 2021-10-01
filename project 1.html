@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="site" content="width=device-width, initial-scale=1.0">
+    <title>Jv Lanches</title>
+    <link rel="stylesheet" type="text/css" href="projeto.css">
+</head>              
+<body>
+   
+ <fieldset id="h1"><h1>Faça seu pedido! Jv Lanches;)</h1></fieldset>
+
+  
+ <form action="" method="get" class="form-example">
+
+  <div class="imagem1"> <img  src ="salgado.png" width="300px" height="300px"> </div>
+  <div class="imagem2"> <img src ="imagem2.png" width="300px" height="300px">  </div>
+
+  <fieldset id="campo1">
+
+    <div class="nome">
+      <label for="nome"> Digite seu nome: </label>
+      <input type="text" name="nome" id="nome" required>
+    </div>
+
+    <div class="endereço">
+      <br>
+       <label for="endereço">Digite seu endereço: </label>
+       <textarea name="endereço" id="endereço" cols="20" rows="1" required></textarea>
+    </div>
+
+    <div class="número">
+      <br> 
+       <label for="número">Digite seu número de telefone: </label>
+       <input type="text" id="número" required>
+    </div>
+  </fieldset> <br>
+  
+  <fieldset id="campo2">
+    
+    <p>Faça seu pedido, escolhendo entre as opções abaixo:</p>
+
+    <div class="salgados">
+      <br>
+     <label >Salgados</label>
+     <select name="salgados" id="salgados">
+         <option selected disabled value="">Escolha seu salgado</option>
+         <option>queijo</option>
+         <option >frango</option>
+         <option >carne</option>
+         <option >misto</option>
+      </select>
+      <label id="sa"for="si">quantidade</label> 
+      <input id="si" type="text">
+
+    </div>
+
+    <div class="pastéis">
+      <br>
+     <label >Pastéis</label>
+       <select id="pastéis">
+          <option selected disabled value="">Escolha seu pastel</option>
+          <option >queijo</option>
+          <option >frango</option>
+          <option >carne</option>
+          <option >misto</option>
+       </select>
+       <label id="pa"for="si">quantidade</label> 
+       <input id="pi" type="text">
+    </div>
+
+    <div class="refrigerantes">
+      <br>
+     <label >Refrigerantes</label>
+       <select id="refrigerantes">
+          <option selected disabled value="">Escolha sua bebida</option>
+          <option >guaraná</option>
+          <option >coca</option>
+          <option >limão</option>
+          <option >uva</option>
+          <option >laranja</option>
+       </select>
+       <label id="ra"for="si">quantidade</label> 
+       <input id="ri" type="text">
+    </div>
+
+  </fieldset> 
+
+   <div class="observação">
+      <br>
+       <label id="ob">Faça uma observação: </label>
+       <textarea nome="observação" id="observação" rows="3" style="width: 20em;" ></textarea>
+    </div>
+
+    <br> <button type="submit"id="submit" >Enviar pedido</button>
+  
+  
+  
+  
+  
+  
+ </form>
+
+
+
+  
+   
+</body> 
+</html>     
+                
+
+
+
+    
+
+
